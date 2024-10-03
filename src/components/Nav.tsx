@@ -29,15 +29,15 @@ function Nav() {
 
   return (
     <>
-      <nav className={`bg-sky-800 p-4 ${isScrolled ? 'fixed top-0 left-0 right-0 z-20' : 'relative z-20'}`}>
+      <nav className={`bg-cyan-800 p-4 ${isScrolled ? 'fixed top-0 left-0 right-0 z-20' : 'relative z-20'}`}>
         <div className="container mx-auto flex justify-between items-center">
           <div>
             <Link href="/">
-              <div className='flex items-center space-x-4'>
+              <div className='flex items-center space-x-6'>
                 <Image
-                  src="/images/trappen.png"
-                  width={80}
-                  height={80}
+                  src="/images/0d21d215-dd86-46c4-9220-1ff547229ea4-removebg-preview.png"
+                  width={60}
+                  height={60}
                   alt="Logo"
                 />
                 <span className="text-white font-bold text-lg">Trappen Sprachschule</span>

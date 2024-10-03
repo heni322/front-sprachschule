@@ -15,6 +15,7 @@ const OpenDay = () => {
                 <p className="text-lg font-bold mb-4 text-center md:text-left">TRAPPEN ACADEMIE welcomes you to the open day under the motto &quot;WINNING DUO&quot;.</p>
                 <p className="text-sm mb-8 text-center md:text-left">Learn a language and sign a contract! TRAPPEN ACADEMIE organizes accelerated language courses:</p>
                 <ul className="list-disc pl-8">
+                    <li><FaLanguage className="inline-block mr-2" />German</li>
                     <li><FaLanguage className="inline-block mr-2" />Arabic</li>
                     <li><FaLanguage className="inline-block mr-2" />French</li>
                     <li><FaLanguage className="inline-block mr-2" />English</li>

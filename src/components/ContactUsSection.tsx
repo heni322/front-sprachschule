@@ -23,7 +23,7 @@ const ContactUsSection: React.FC = () => {
                 <FaPhoneAlt className="mr-4 text-5xl text-blue-500" aria-label="Phone" />
                 <div>
                   <h5 className="text-lg font-bold">Phone:</h5>
-                  <p className="text-sm">+216 53 538 062 / </p>
+                  <p className="text-sm">+216 53 538 062</p>
                 </div>
               </div>
               <div className="flex items-start p-5">
@@ -35,7 +35,7 @@ const ContactUsSection: React.FC = () => {
               </div>
             </div>
             <div className="text-center md:text-left mt-12">
-              <Link href="https://10web-site.ai/2/glorious-teal/contact-us/">
+              <Link href="/contact">
                 <p className="bg-blue-500 text-white py-2 px-4 rounded inline-block hover:bg-blue-600 transition duration-300" aria-label="Send a Message">
                   Send a Message
                 </p>
@@ -51,6 +51,7 @@ const ContactUsSection: React.FC = () => {
               alt="Teacher and student in the classroom"
               width={500}
               height={300}
+              priority // Optional: if this image is important and should be loaded quickly
             />
           </div>
         </div>
